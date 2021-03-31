@@ -1,0 +1,154 @@
+#part1 {
+    display: flex;
+}
+.pg img {
+    /* margin: auto; */
+    padding-left: 45px;
+    padding-top: 20px;
+    /* max-width: ; */
+}
+.part2 {
+    display: flex;
+    margin-right: auto;  
+}
+#city {
+    margin-left: 15px;
+}
+.name {
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: start;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+h2 {
+   
+    font-size: 49px;
+    margin-right: 350px;
+     text-align: start ;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+
+.para {
+    width: 50%;
+    padding: 40px;
+    margin-top: -70px;
+    
+}
+/* p {
+    margin-top: 20;
+    padding-right: 10;
+}  */
+h4 {
+    font-size: 49px;
+}
+#p2 {
+    margin-top: -3%;
+    font-size: 40px;
+    text-align: center;
+}
+table {
+    width: 98%;
+    border-collapse: collapse;
+}
+th, th {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+ th, td {
+    border: solid black;
+    border-collapse: collapse;
+    width:50%;
+    font-size: 20px;
+}
+#foreign {
+    margin-left: 15px;
+}
+h5 {
+    font-size: 52px;
+}
+/* .flex-container { */
+
+
+.Historical .slave, .museum, .iziko {
+width: 33.33%;
+
+}
+
+
+
+.Historical .museum img {
+    float:left;
+}
+
+.Historical .iziko img {
+    float:right;
+
+}
+
+.Historical .slave img {
+    float:left;
+}
+
+
+
+
+.Historical{
+        /* content: "";
+        display: table;
+        clear: both;
+        align-items: start; */
+        display: flex;
+        width: 100%;
+
+    }
+
+   
+.a .slave {
+    display: flex;
+    width: 90%;
+}
+.mu-text, .mu-text2, .mu-text3 {
+    padding: 10px;
+}
+.a .iziko {
+    display: flex;
+    width: 90%;
+}
+.a .museum {
+    display: flex;
+    width: 90%;
+}
+.a{
+
+    display: block;
+    width: 33%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .mu-pic1{
+    float: right;
+    width: 50%;
+    margin-top: -290px;
+    }
+    .mu-text1 {
+        width: 50%;
+    }
+    .mu-pic2{
+    
+     width: 50%;
+ }
+  } 
+  /* .section {
+      display: flex;
+  } 
+  
