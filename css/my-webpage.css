@@ -1,25 +1,20 @@
-#part1 {
-    display: flex;
-}
-.pg img {
-    /* margin: auto; */
-    padding-left: 45px;
-    padding-top: 20px;
-    /* max-width: ; */
-}
-.part2 {
-    display: flex;
-    margin-right: auto;  
-}
-#city {
-    margin-left: 15px;
-}
+
 .name {
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 43px;
     text-align: start;
     padding-left: 50px;
     font-style: italic;
+}
+
+.part21{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.cityimage{
+    float: left;
+    margin-right: 2%;
 }
 
 h2 {
@@ -28,11 +23,13 @@ h2 {
     margin-right: 350px;
      text-align: start ;
 }
+
 h3 {
     font-size: 30px;
 }
-p {
-    font-size: 20px;
+.fix {
+    margin-inline-start: -4px;
+
 }
 
 .para {
@@ -50,7 +47,7 @@ h4 {
 }
 #p2 {
     margin-top: -3%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 table {
@@ -75,67 +72,139 @@ th {
 h5 {
     font-size: 52px;
 }
-/* .flex-container { */
 
-
-.Historical .slave, .museum, .iziko {
-width: 33.33%;
-
+#hs {
+    margin-left: 15px;
 }
 
+@media screen and (min-width: 920px) {
 
-
-.Historical .museum img {
-    float:left;
+.name {
+    padding-top: 50px;
+    font-size: 43px;
+    text-align: start;
+    padding-left: 194px;
+    font-style: italic;
+}
+#city {
+    margin-left: 15px;
 }
 
-.Historical .iziko img {
-    float:right;
-
+#part1 {
+    display: flex;
 }
-
-.Historical .slave img {
-    float:left;
+.pg img {
+    /* margin: auto; */
+    padding-left: 34px;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    /* max-width: ; */
 }
-
-
-
-
-.Historical{
-        /* content: "";
-        display: table;
-        clear: both;
-        align-items: start; */
+.part2 {
+    display: flex;
+    margin-right: auto;  
+}
+    .Historical{
         display: flex;
         width: 100%;
 
     }
+    .a .slave {
+        display: flex;
+        width: 90%;
+    }
+    .mu-text, .mu-text2, .mu-text3 {
+        padding-left:10px;
+        margin-block-start: -20px;
+        
+    }
 
-   
-.a .slave {
-    display: flex;
-    width: 90%;
+p {
+    font-size: 20px;
+    padding-block-start: 10px;
 }
-.mu-text, .mu-text2, .mu-text3 {
-    padding: 10px;
-}
-.a .iziko {
-    display: flex;
-    width: 90%;
-}
-.a .museum {
-    display: flex;
-    width: 90%;
-}
-.a{
+    
+    .a .iziko {
+        display: flex;
+        width: 90%;
+    }
+    .a .museum {
+        display: flex;
+        width: 90%;
+    }
+    .a{
+    
+        display: block;
+        width: 33%;
+    }
+    h3 {
+        text-align: center;
+    }
 
-    display: block;
-    width: 33%;
+   body{ background-color: blueviolet;} 
+} 
+
+@media screen and (max-width: 600px) {
+    #city {
+        margin-left: 15px;
+    }
+
+    #part1 {
+        display: flex;
+        flex-direction:column;
+    }
+    .pg img {
+        /* margin: auto; */
+        padding-left: 34px;
+        padding-top: 20px;
+        width: 200px;
+        height: 200px;
+        /* max-width: ; */
+    }
+    .part2 {
+        display: flex;
+        margin-right: auto;  
+    }
+#foreign {
+    margin-left: 15px;
+}
+h5 {
+    font-size: 52px;
 }
 
+    .mu-pic1 { 
+float : left;
+margin : 0.5em
+    }
 
-@media screen and (max-width: 800px) {
-    .mu-pic1{
+    .mu-pic2 {
+float: right;
+margin : 0.5em
+
+    }
+
+    .mu-pic3 {
+float : left;
+margin : 0.5em
+
+    }
+
+p {
+    font-size: 20px;
+    padding-block-start: 10px;
+}
+
+    .a {
+        overflow: auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+}
+    /* .mu-pic1{
     float: right;
     width: 50%;
     margin-top: -290px;
@@ -146,8 +215,10 @@ width: 33.33%;
     .mu-pic2{
     
      width: 50%;
- }
-  } 
+ }  */
+
+
+
   /* .section {
       display: flex;
   } 
